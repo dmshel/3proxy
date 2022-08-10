@@ -21,4 +21,4 @@ update-rc.d 3proxy defaults
 timedatectl set-timezone Asia/Tomsk
 ufw allow 59999/tcp
 ufw allow 58088/tcp
-ufw apply
+ufw enable
