@@ -25,5 +25,5 @@ ufw allow 2022/tcp
 ufw enable
 /etc/init.d/3proxy start
 echo 1 > /proc/sys/net/ipv4/ip_forward
-echo 2022 > /etc/ssh/sshd_config/port
+echo port 2022 > /etc/ssh/sshd_config
 service sshd restart
