@@ -28,3 +28,6 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 sysctl -p
 echo port 2022 > /etc/ssh/sshd_config
 service sshd restart
+echo "username: $USERNAME"
+echo "pass: $PASS"
+echo ""
